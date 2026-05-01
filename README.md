@@ -1,5 +1,5 @@
 # Cybersecurity : CSN150
-Project: ESP32 Introduction
+Project: ESP32 Access Point
 
 ## Purpose
 Set up ESP32 and Arduino enviornment. Execute sketch " Wifiscanner". 
