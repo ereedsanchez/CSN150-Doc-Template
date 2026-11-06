@@ -17,7 +17,6 @@ Set up the ESP32 and Arduino environment on Windows, then program an ESP32-CAM t
 * [Last Minute Engineers: Getting started with ESP32-CAM](https://lastminuteengineers.com/getting-started-with-esp32-cam/)
 
 ##### Video 1:
-TODO: add a video link here if the assignment asks for one, or delete this line.
 
 ##### Other Links:
 * Board manager URL used for the ESP32 package: `https://espressif.github.io/arduino-esp32/package_esp32_index.json`
@@ -63,7 +62,7 @@ The cause was a **charge-only** USB cable. After I switched to a cable that carr
 ## Final Report
 I set up the Arduino IDE for the ESP32-CAM and used the CameraWebServer example to stream live video from the camera over Wi-Fi. This was a very cool project. The steps were well laid out, so I was able to complete the steps without much difficulty. I hope to see more projects like this one in the future.
 
-![ESP32-CAM streaming video](camera-screenshot.png)
+![ESP32-CAM streaming video](camera-screenshot.jpg)
 
 **What I learned:**
 * The ESP32-CAM only connects to **2.4 GHz** Wi-Fi, so the PC and the camera had to be on the same 2.4 GHz network.
