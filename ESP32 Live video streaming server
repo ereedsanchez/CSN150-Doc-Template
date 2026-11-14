@@ -17,8 +17,8 @@ AI GPTs used
 Steps I followed
 1.Clicked on the dropdown menu at the top and selected the “Select other Board and Port” entry. In the search bar i typed esp32 and clicked the search icon.
 2.Clicked on the AI thinker esp32 CAM and clicked the COM5 port. 
-I Moved to file>example>
-In the code, i replaced the 'LedPin' to 4.
-After running it, the led started blinking. 11.To make the led blink faster, i decreased the delay() number to less than 1000 in the void loop()..
-To make the led blink slower, i increased the delay() number to more than 1000 in the void loop().
+3.I Moved to file>example> ESP32 > Camera > CameraWebServer.
+4. Located the section in the code where you must enter your Wi-Fi credentials. Replace the placeholders with your network’s SSID (name) and password
+5. Clicked on the “board_config.h” tab in the Arduino IDE. In the select camera model code, i found “CAMERA_MODEL_AI_THINKER” and uncommented it and commented the ESP_EYE that was uncommented earlier
+6. 
 Problems and Solutions
