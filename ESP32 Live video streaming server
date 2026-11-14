@@ -15,14 +15,9 @@ https://www.arduino.cc/en/software/
 AI GPTs used
 
 Steps I followed
-Installed Arduino IDE 2.3.10 after downloading it from the link above.
-Connected camera and installed all necessary drivers. The drivers was shown in a dialog and i clicked install.
-Added the ESP32 board to Arduino IDE by going to file>preferences>additional boards manager URLs and pasted "https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json" in the box and clicked OK.
-Moved to the board icon on the left side and clicked it. The board manager opened and i typed "esp32" in the search bar. Selected the entry "esp32 by Espressif Systems" and clicked on install and waited till it finished installing.
-Clicked on the dropdown menu at the top and selected the “Select other Board and Port” entry. In the search bar i typed esp32 and clicked the search icon.
-Clicked on the AI thinker esp32 CAM and clicked the COM5 port. To know which COM port to choose, i unplugged my ESP32 and look at which port disappears from the list. Then plugged it back in and selected that COM port.
-To make sure everything is set perfectly, i tested using the classic blink example.
-I Moved to file>example>basics>blinks
+1.Clicked on the dropdown menu at the top and selected the “Select other Board and Port” entry. In the search bar i typed esp32 and clicked the search icon.
+2.Clicked on the AI thinker esp32 CAM and clicked the COM5 port. 
+I Moved to file>example>
 In the code, i replaced the 'LedPin' to 4.
 After running it, the led started blinking. 11.To make the led blink faster, i decreased the delay() number to less than 1000 in the void loop()..
 To make the led blink slower, i increased the delay() number to more than 1000 in the void loop().
