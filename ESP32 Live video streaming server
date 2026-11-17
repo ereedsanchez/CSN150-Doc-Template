@@ -1,0 +1,34 @@
+Project: ESP32 Live vidoe streaming 
+Purpose
+Set up ESP32:Live video straming server.
+
+Equipment
+ESP32Cam
+
+USB C cable
+
+Links to documentation and tools
+Video 1:https://youtu.be/4inE-n6kXSE?si=Xlt3J3jvFqjGIqsC
+Other Links:
+https://www.arduino.cc/en/software/
+
+AI GPTs used
+Gemini ai
+
+Steps I followed
+1.Clicked on the dropdown menu at the top and selected the “Select other Board and Port” entry. In the search bar i typed esp32 and clicked the search icon.
+2.Clicked on the AI thinker esp32 CAM and clicked the COM5 port. 
+3.I Moved to file>example> ESP32 > Camera > CameraWebServer.
+4. Located the section in the code where you must enter your Wi-Fi credentials. Replaced the placeholders with my network’s SSID (name) and password
+5. Clicked on the “board_config.h” tab in the Arduino IDE. In the select camera model code, i found “CAMERA_MODEL_AI_THINKER” and uncommented it and commented the ESP_EYE that was uncommented earlier
+6. i uploaded the code.
+7. camera got connected to my wifi.
+8. i opened a browser and out in the camera ip shown in the serial monitor besides the "Camera Ready" message
+9.scrolled down and clicked start stream and the camera was live.
+Problems and Solutions
+ The output of the code was hung on "Hard Resetting pin" and was not showing "Serial Monitor"
+
+
+Solution
+I clicked on tools>serial monitor. Baud rate was already set to  115200
+I uploaded the code again and it was successful
